@@ -5,7 +5,7 @@ import org.apache.ibatis.session.SqlSession;
 public class KKHdao {
 
     public void colummsAllSearch(SqlSession sqlSession) {
-        //D
+        //dd
 
 
     }
