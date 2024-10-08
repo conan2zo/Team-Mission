@@ -1,5 +1,7 @@
 package com.conan2zo.teamMission1008.controller;
 
+import com.conan2zo.teamMission1008.model.service.KYWEmployeeService;
+
 public class KYWEmployeeController {
 
     // 안전한 코드 실행을 위해 private final 로 초기화
@@ -14,4 +16,7 @@ public class KYWEmployeeController {
         this.printResult = new PrintResult();
 
     }
+    public static void selectAllMember() {
+
+    }//dd
 }
