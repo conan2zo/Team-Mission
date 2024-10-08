@@ -27,6 +27,7 @@ public class Member {
 
                     break;
                 case 3:
+                    KYWEmployeeView.kywEmployee();
 
                     break;
                 case 4:
