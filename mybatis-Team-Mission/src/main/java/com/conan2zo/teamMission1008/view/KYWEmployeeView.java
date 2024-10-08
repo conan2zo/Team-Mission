@@ -1,5 +1,7 @@
 package com.conan2zo.teamMission1008.view;
 
+import com.conan2zo.teamMission1008.controller.KYWEmployeeController;
+
 import java.util.Scanner;
 
 public class KYWEmployeeView {
@@ -24,7 +26,7 @@ public class KYWEmployeeView {
             // 번호를 누르면 해당하는 작업 실행
             switch (no) {
                 case 1:
-
+                    KYWEmployeeController.selectAllMember();
                     break;
                 case 2:
                     break;
