@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="EmployeeMapper">
-    <resultMap id="EmployeeResultMap" type="com.conan2zo.teamMission1008.model.dto.KKHMeberDTO">
+    <resultMap id="EmployeeResultMap" type="com.conan2zo.teamMission1008.model.dto.MeberDTO">
         <id property="EMP_ID" column="EMP_ID"/>
         <result property="EMP_NAME" column="EMP_NAME"/>
         <result property="EMP_NO" column="EMP_NO"/>

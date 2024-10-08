@@ -2,7 +2,7 @@ package com.conan2zo.teamMission1008.model.dto;
 
 import java.util.Date;
 
-public class KKHMeberDTO {
+public class MeberDTO {
     private String empId;
     private String empName;
     private String empNo;
@@ -18,9 +18,9 @@ public class KKHMeberDTO {
     private Date entDate;
     private String entYn;
 
-    public KKHMeberDTO() {}
+    public MeberDTO() {}
 
-    public KKHMeberDTO(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, Double bonus, String managerId, Date hireDate, Date entDate, String entYn) {
+    public MeberDTO(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, Double bonus, String managerId, Date hireDate, Date entDate, String entYn) {
         this.empId = empId;
         this.empName = empName;
         this.empNo = empNo;
