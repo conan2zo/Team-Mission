@@ -8,6 +8,7 @@ public class JEMEmployeeView {
 
         Scanner sc = new Scanner(System.in);
 
+
         do {
 
             System.out.println("====================코난회사====================");
