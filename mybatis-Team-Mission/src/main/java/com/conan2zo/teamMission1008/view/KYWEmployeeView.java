@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class KYWEmployeeView {
 
-    public void kywEmployee() {
+    public static void kywEmployee() {
 
         do {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("==============================");
 
 
 
