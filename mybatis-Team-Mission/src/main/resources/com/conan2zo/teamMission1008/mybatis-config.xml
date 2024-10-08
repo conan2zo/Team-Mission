@@ -15,6 +15,10 @@
         </environment>
     </environments>
     <mappers>
+        <!-- 예시 -->
         <!--    <mapper resource="com/conan2zo/teamMission1008/employee-mapper.xml"/>   -->
+
+        <!-- 윤이정 -->
+        <mapper resource="com/conan2zo/teamMission1008/YEJEmployee-Mapper.xml"/>
     </mappers>
 </configuration>
