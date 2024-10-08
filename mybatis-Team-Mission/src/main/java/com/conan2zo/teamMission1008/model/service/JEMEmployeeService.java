@@ -18,6 +18,6 @@ public class JEMEmployeeService {
 
         jemEmployeeDAO.selectAllMember(sqlSession);
 
-    //
+    // 22
     }
 }
