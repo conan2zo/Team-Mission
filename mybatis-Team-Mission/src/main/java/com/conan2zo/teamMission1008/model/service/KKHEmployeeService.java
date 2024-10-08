@@ -11,6 +11,6 @@ public class KKHEmployeeService {
 
     public static void colummsAllSearch() {
 
-        SqlSession sqlSession = getSqlSession();
+        SqlSession sqlSession = getSqlSession(); // dd
     }
 }
