@@ -1,6 +1,6 @@
 package com.conan2zo.teamMission1008.model.dto;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class MeberDTO {
     private String empId;
