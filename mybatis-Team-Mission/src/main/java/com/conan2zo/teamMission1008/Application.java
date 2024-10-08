@@ -1,6 +1,19 @@
 package com.conan2zo.teamMission1008;
 
+
+import com.conan2zo.teamMission1008.view.JEMEmployeeView;
+
 public class Application {
-    //임시 데이터
+
+    public static void main(String[] args) {
+
+        
+
+
+
+
+
+    }
+
 
 }
