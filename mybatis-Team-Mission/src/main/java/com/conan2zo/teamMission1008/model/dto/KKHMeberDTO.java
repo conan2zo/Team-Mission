@@ -5,7 +5,7 @@ import java.util.Date;
 public class KKHMeberDTO {
     private String EMP_ID;
     private String EMP_NAME;
-    private String ENP_NO;
+    private String EMP_NO;
     private String EMAIL;
     private String PHONE;
     private String DEPT_CODE;
@@ -20,10 +20,10 @@ public class KKHMeberDTO {
 
     public KKHMeberDTO() {}
 
-    public KKHMeberDTO(String EMP_ID, String EMP_NAME, String ENP_NO, String EMAIL, String PHONE, String DEPT_CODE, String JOB_CODE, String SAL_LEVEL, int SALARY, Double BONUS, String MANAGER_ID, Date HIRE_DATE, Date ENT_DATE, String ENT_YN) {
+    public KKHMeberDTO(String EMP_ID, String EMP_NAME, String EMP_NO, String EMAIL, String PHONE, String DEPT_CODE, String JOB_CODE, String SAL_LEVEL, int SALARY, Double BONUS, String MANAGER_ID, Date HIRE_DATE, Date ENT_DATE, String ENT_YN) {
         this.EMP_ID = EMP_ID;
         this.EMP_NAME = EMP_NAME;
-        this.ENP_NO = ENP_NO;
+        this.EMP_NO = EMP_NO;
         this.EMAIL = EMAIL;
         this.PHONE = PHONE;
         this.DEPT_CODE = DEPT_CODE;
@@ -53,12 +53,12 @@ public class KKHMeberDTO {
         this.EMP_NAME = EMP_NAME;
     }
 
-    public String getENP_NO() {
-        return ENP_NO;
+    public String getEMP_NO() {
+        return EMP_NO;
     }
 
-    public void setENP_NO(String ENP_NO) {
-        this.ENP_NO = ENP_NO;
+    public void setEMP_NO(String EMP_NO) {
+        this.EMP_NO = EMP_NO;
     }
 
     public String getEMAIL() {
@@ -154,7 +154,7 @@ public class KKHMeberDTO {
         return "KKHMeberDTO{" +
                 "EMP_ID='" + EMP_ID + '\'' +
                 ", EMP_NAME='" + EMP_NAME + '\'' +
-                ", ENP_NO='" + ENP_NO + '\'' +
+                ", EMP_NO='" + EMP_NO + '\'' +
                 ", EMAIL='" + EMAIL + '\'' +
                 ", PHONE='" + PHONE + '\'' +
                 ", DEPT_CODE='" + DEPT_CODE + '\'' +
