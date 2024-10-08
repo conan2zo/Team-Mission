@@ -16,7 +16,7 @@ public class Member {
             System.out.println("3. 김용욱");
             System.out.println("4. 윤이정");
             System.out.println("=====================================");
-            System.out.println("멤버를 선택해주세요");
+            System.out.println("멤버를 선택해주세요 : ");
             int no = sc.nextInt();
 
             switch (no) {
